@@ -1,0 +1,867 @@
+/*Start Variables*/
+:root {
+  --main-color: rgba(0, 204, 255, 0.952);
+  --secondary-color:rgb(25, 60, 112) ;
+}
+/*End Variables*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Roboto";
+}
+/* Start home*/
+#home .countainer nav , .contect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#home .countainer nav .ul-lastbox,ul , .last-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home .countainer nav ul , .last-box {
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+#home .countainer nav .last-box {
+ margin-left: 100px ;
+}
+
+#home .countainer nav ul li a  {
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+  transition: 1.0s;
+}
+
+.sign{
+  text-decoration: none; 
+  color: white;
+}
+
+#home .countainer{
+  background-image: url(images/banner2.png);
+  background-position: center;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 90vh;
+  padding-top: 2%;
+}
+
+#home  .menu-icon img{
+display: none;
+}
+
+#home .countainer ul li a:hover{ 
+color: var(--main-color)
+}
+
+.form{
+  margin-right: 60px;
+}
+
+#zero{
+  position: absolute;
+  color: white;
+  font-size: 8px;
+  margin-left: -2px;
+  margin-top: 2px;
+  z-index: 2;
+  background-color: var(--main-color);
+  padding: 3px;
+  border-radius: 70%;
+}
+
+#bage{
+  color: white;
+  font-size: 100%;
+}
+nav .menu{
+  margin-right: -30px;
+}
+
+#home .countainer .dream_img{
+  width: 80%;
+  margin-top: 10px;
+}
+
+#home .countainer p{
+  margin-top:50px;
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+  margin-bottom: -8px;
+}
+ 
+#home .countainer button{
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px 10px 15px ;
+  font-size: 16px;
+  margin-right: 2px;
+  color: white;
+  background-color: #dedede;
+  margin-bottom: 120px;
+  transition: 1.0s;
+}
+
+#home .countainer button:hover,#home .countainer .text .circle-arrow #fa-circle-arrow-left:hover,
+#home .countainer .text .circle-arrow #fa-circle-arrow-right:hover{
+ background-color: var(--main-color);
+}
+
+#home .countainer .text .circle-arrow{
+ font-size: 50px;
+ transition: 1.0s;
+ color: var(--secondary-color);
+}
+
+#home .countainer .text .circle-arrow #fa-circle-arrow-left,
+#home .countainer .text .circle-arrow #fa-circle-arrow-right{
+  font-size: 50px;
+  color:white;
+  background-color:var(--secondary-color);
+  border-radius: 50%;
+  padding: 10px;
+  height: 50px;
+  width: 45px;
+  transition: 1.0s;
+}
+/* End home */
+/* Start starts */
+#starts .countainer{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#starts .countainer .search{
+  width: 60%;
+  height: 57px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px 0px #88888869;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#starts .countainer  #search-icon{
+  text-align: right;
+  transform: translate(-250% , 124%);
+  color: var(--secondary-color);
+  position: absolute;
+}
+
+#starts .countainer .boxing{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px 0px #88888869;
+  width: 60%;
+  height: 50px;
+  padding: 20px 20px 60px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5%;
+}
+
+#starts .countainer .box{
+ line-height: 23px;
+ text-align: center;
+ padding: 20px;
+}
+
+#starts .countainer .see-more{
+  padding: 15px 40px 15px 40px ;
+ transform: translate(0% , -17%);
+ margin-top: -55px;
+}
+
+#starts .countainer .box .domain, .number{  
+  color: var(--secondary-color);
+}
+/* End starts */ 
+/* Start features */
+#features .countainer .feat{
+  margin: 1.5%;
+}
+
+#features .countainer .feat .image-container {
+  border: solid 2px ;
+  padding: 30px;
+  border-color: var(--main-color);
+  border-radius: 50%;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 90px; 
+  height: 90px; 
+  margin-bottom: 12%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#features .countainer .feat .image-container img{
+  width: 70%;
+  height: 75%;
+}
+
+#features .countainer, #plans .countainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#features .countainer{
+  margin-top: 5%;
+}
+
+#features .countainer .feat .title{
+  margin-bottom: 9%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+#features .countainer .feat p{
+  font-size: 15px;
+  text-align: center;
+  line-height: 23px;
+  color: #333;
+}
+
+#features .countainer .feat .fb{
+  display: flex;
+  justify-content: center;
+}
+
+#features .countainer .feat .feat-button{
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10%;
+  font-size: 15px;
+}
+/* End features */
+/* Start plans */
+#plans .main-p{
+  margin-top: 1%;
+}
+
+#plans .countainer {
+  margin-top: 2%;
+  align-items: center;
+  text-align: center;
+}
+
+#plans .countainer .plan{
+  border:2px solid;
+  border-color: var(--main-color);
+  padding: 20px;
+  margin: 1%;
+  position: relative;
+}
+
+#plans .countainer .plan .title{
+  color: var(--secondary-color);
+  text-align: center;
+  margin-bottom: 10.2%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#plans .countainer .plan .starting{
+  font-size: 18px;
+  text-align: center;
+  line-height: 23px;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8.5%;
+}
+
+#plans .countainer .plan .starting span{
+  font-size: 33px;
+  font-weight: 600;
+  color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#plans .countainer .plan .use-button{
+  border: solid 1px;
+  border-radius: 30px;
+  padding: 8px 15px 8px 15px ;
+  border-color: #333;
+  color: #333;
+  background-color: white;
+  margin-bottom: 2.5%;
+  transform: 1.0s;
+}
+
+#plans .countainer .plan .info{
+  color: #333;
+  line-height: 40px;
+}
+
+#plans .countainer .plan .buy-button{
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%);
+  margin-top: 19%;
+  padding: 10px 25px 10px 25px ;
+}
+/* End plans */
+/* Start about */
+#about h2{
+  margin-top: 13%;
+}
+
+#about p{
+  margin-top: 0.8%;
+  line-height: 25px;
+}
+
+#about .countainer{
+  margin-top: 4%;
+  justify-content: center;
+  text-align: center;
+}
+
+#about .image-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+#about .image-container img{
+  width: 38%;
+  height: 38%;
+}
+
+#about .countainer   .about-button{
+  text-align: center;
+  margin-top: 2%;
+  padding: 10px 30px 10px 30px ;
+  transform: translate(-1%);
+}
+/* End about */
+/* Start contact */
+#contact h2{
+  margin-top: 6%;
+}
+
+#contact .countainer{
+  margin-top: 3%; 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact .countainer input{
+  width: 60%;
+  height: 60%;
+  border-radius: 30px;
+  color: #333;
+  border: 1px solid ;
+  border-color: #44444467;
+  margin: 15px;
+  padding: 15px;
+}
+
+#contact .countainer .last{
+  height: 100px;
+  width: 60%;
+}
+
+#contact .countainer button{
+  text-align: center;
+  margin-top: 2%;
+  padding: 10px 30px 10px 30px ;
+}
+/* End contact */
+/* Start footer */
+#footer .countainer {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 2px;
+  color: white;
+  margin-top: 7%;
+  padding-bottom: 10px;
+}
+
+#footer .countainer .boxes{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+
+#footer .countainer .boxes .box {
+line-height: 30px;
+} 
+
+#footer .countainer .boxes .box .title{
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+#footer .countainer .boxes .box i{
+  margin: 10px;
+}
+
+#footer .countainer .end{
+  margin-bottom: 7px;
+}
+
+#icon-box{
+  margin-top: -42px;
+}
+
+#choose-box{
+  margin-top: -10px; ;
+}
+/* Start footer */
+/*Start Common formts*/
+#starts  h2,#features h2,#plans h2,#about h2,#contact h2{
+  margin-top: 10%;
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+#starts h2 span ,#features h2 span, #plans h2 span ,#about h2 span,#contact span ,#home .countainer nav ul .home{
+ color: var(--main-color);
+}
+
+#starts .countainer .see-more ,#features .countainer .feat .feat-button, #plans .countainer .plan .buy-button,
+#plans .countainer  #plan3 .buy-button,#about .countainer   .about-button ,#contact .countainer button{
+  background-color: var(--main-color);
+  border-radius: 30px;
+  color: white;
+  border: none;
+  transition: 1.0s;
+}
+
+#starts .countainer .see-more:hover,#features .countainer .feat .feat-button:hover,#contact .countainer button:hover{
+  background-color: var(--secondary-color);
+}
+
+#plans .countainer .plan .buy-button:hover,
+#about .abutton   .about-button:hover{
+  background-color: var(--secondary-color);
+}
+
+#features .main-p,#plans .main-p,#about .main-p{
+  margin-top: 1%;
+  color: #333;
+  text-align: center;
+  font-size: 13px;
+}
+/*End Common formts*/
+
+@media (max-width:1024px) and (min-width:350px) {
+  #home .countainer  {
+    padding-top: 0;
+    padding-left: -45px;
+    padding-right: -5px;
+    background-image: none;
+    background-color: rgb(63, 40, 167);
+    height: 60vh;
+  }
+
+  #home .countainer nav , .contect{
+    padding-top: 2%;
+    padding-left: 20px;
+    padding-right: 25px;
+  }
+
+  #home .countainer .logo{
+    padding: -2px;
+  }
+
+  #home .countainer .sign{
+    margin-left: -30px;
+  }
+
+  #home .countainer nav ul li a{
+    padding: 23px;
+  }
+  
+  #home .countainer button{
+    margin-bottom: 100px;
+  }
+
+  #home .countainer .text .circle-arrow #fa-circle-arrow-left,#home .countainer .text .circle-arrow #fa-circle-arrow-right{
+    background-color:  rgba(85, 106, 160, 0.301);
+  }
+}
+
+@media (max-width:1168px) and (min-width:1025px) {
+  #starts .countainer  .boxing{
+    padding-top: 30px;
+  }
+  #starts .countainer  .box{
+   padding: 7px;
+  }
+}
+
+@media (max-width:1024px) and (min-width:800px) {
+#home .countainer{
+  height: 700px;     }
+
+#home .countainer nav .last-box{
+  margin-left: 70px;     }
+
+#home .countainer .dream_img{
+margin-left: 20%;
+margin-top: -22px;
+width: 80%;
+}
+
+#home .countainer .text{
+  width: 40%;       }
+
+#starts .countainer  .boxing{
+  height: 40%;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+#starts .countainer  .box{
+  font-size: 15px;
+   padding: 8px;
+}
+  
+#features .countainer .feat{
+  margin: 0.8%;
+  margin-bottom: 6%;
+}
+
+#features .countainer .feat .p-feat{
+  font-size: 14px;         }
+
+#plans .countainer .plan{
+  margin-bottom: 12%;      }
+}
+
+@media (max-width:799px) and (min-width:350px) {
+  #home .countainer nav ul, .last-box , #home  .menu-icon img{
+    display: block;     }
+
+  #home .countainer .contect img{
+    width: 90%;
+    margin-top: -75px; }
+   
+  #home .countainer nav ul {
+    background-color: #dededef3;
+    display: none;
+  }
+
+  #home .countainer nav ul li a{
+    transition: 1.0s;       }
+
+  #home .countainer nav ul li a, #home .countainer nav ul #home1 li a, .last-box .sign , .last-box #bage{
+   color: var(--secondary-color);
+   line-height: 30px;
+  }
+
+  #home .countainer,#home .countainer nav .ul-lastbox{
+    position: relative;         }
+
+  #home .countainer nav .menu{
+    position: absolute;
+    margin-top: 790%;
+    margin-left: -380%;
+    padding: 20px 35px 70px 8px ;
+  }
+
+  #home .countainer nav .last-box{
+    position: absolute;
+   display: none;
+   margin-top: 1190%;
+   margin-left: -220%;
+  }
+
+  #home .countainer nav .last-box .form{
+    transition: 1.0s;
+    margin-left: -40%;
+  }
+
+  #home .countainer nav .last-box .form #zero{
+    margin-left: -3px;
+    margin-top: 10px;
+  }
+
+  #home .countainer .sign{
+    transition: 1.0s;
+  }
+
+  #home .countainer nav ul li a:hover {
+    color: var(--secondary-color);
+  }
+
+  #home .countainer nav ul .home{
+    color: var(--secondary-color)
+  }
+
+  #home .countainer nav ul::before{
+   content: " ";
+   border-width: 10px;
+   border-style: solid;
+   border-color: transparent transparent #dededef3 transparent ;
+   position: absolute;
+   right: 0px;
+   top:-20px;
+  }
+
+  #home .countainer nav .ul-lastbox:hover  ul ,  #home .countainer nav .ul-lastbox:hover  .last-box{
+  display: block;
+  }
+
+  #home  .menu-icon {
+    margin-top: -1%;
+  }
+
+  #home .countainer .contect{
+    flex-direction: column;
+    padding-right:  15px;
+  }
+
+  #home .countainer .contect .text {
+   margin-right: auto;
+  }
+
+  .circle-arrow{
+    position: absolute;
+    margin-top: 310px;
+    margin-bottom: 20%;
+  }
+
+  #starts .countainer  .boxing{
+    height: 40%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+
+  #starts .countainer  .box{
+    font-size: 15px;
+    padding: 8px;
+  }
+
+  #features .countainer .feat{
+    margin: 5%;
+    margin-bottom: 12%;
+  }
+
+  #features .countainer .feat .p-feat{
+    font-size: 14px;
+  }
+
+  #about .text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #about .text .main-p{
+    width: 70%;
+  }
+
+  #plans .countainer .plan{
+    margin-bottom: 25%;
+  }
+
+  #footer .countainer {
+    text-align: left;
+    padding: 2px;
+    margin-top: 9%;
+    padding-bottom: 10px;  }
+
+    #footer .countainer .boxes{
+      justify-content: left;
+      margin-top: 2%;
+      margin-bottom: 3%;  }
+  
+    #footer .countainer .boxes .box{
+      margin: 20%;
+      margin-bottom: 2%;
+     margin-left: 3%;  
+     }
+  
+    #footer .countainer .end{
+      text-align: center; 
+     }
+
+      #footer #icon-box{
+        margin-top: 7%;
+      }
+}
+
+@media (max-width:799px) and (min-width:615px) {
+  #home .countainer{
+    height: 890px;    
+  }
+    
+  #plans .countainer .plan{
+    margin-bottom: 14%;  }
+
+  #about .text .main-p{
+    width: 60%;  }
+
+  #footer .countainer .boxes .box{
+    margin: 8%;  }
+
+    #footer #services{
+      margin: 16%;
+    }
+}
+
+@media (max-width:614px) and (min-width:550px) {
+  #home .countainer{
+    height: 900px;
+  }
+
+  #home .circle-arrow{
+    margin-top: 315px;
+  }
+    
+  #about img{
+    width: 190%;
+  }
+
+  #footer .countainer .boxes .box{
+    margin: 8%;
+  }
+
+  #footer #services{
+    margin: 16%;
+  }
+
+  #footer .countainer .boxes #icon-box{
+    margin-top: 1%;
+  }
+}
+
+@media (max-width:549px)  and (min-width:350px){
+  #home .countainer{
+    height: 870px;
+  }
+
+  #features .countainer .feat .image-container {
+    width: 110px; 
+    height: 110px; 
+  }
+
+  #features .countainer .feat .image-container img{
+    width: 80%;
+    height: 85%;
+  }
+
+  #features .countainer .feat .title{
+    font-size: 22px;
+  }
+  
+  #features .countainer .feat .p-feat{
+    font-size: 18px;
+  }
+
+  #features .main-p-div , #plans .plan-p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  #features .countainer .feat .feat-button{
+    font-size: 15px;
+  }
+
+  #features .main-p{
+    width: 80%;
+  }
+ 
+  #plans .main-p{
+    width: 90%;
+  }
+
+  #about .image-container img{
+    width: 85%;
+    height: 85%;
+  }
+
+  #footer .countainer .end{
+    margin-top: 10%;
+  }
+
+  #footer #company{
+    margin-top: 6%;
+    margin-bottom: -10%;
+  }
+
+  #footer #services{
+    width: 40%;
+    margin-left: 2%;
+  }
+
+  #contact .countainer input  , #contact .countainer  .last , #starts .countainer .search , #starts .countainer .boxing{
+    width: 80%;
+  }
+}
+
+@media (max-width:549px) and (min-width:413px) {
+  #home .circle-arrow{
+    margin-top: 265px;
+  }
+     
+  #plans .countainer .plan{
+   padding: 45px 75px 45px 75px;
+  }
+
+ 
+
+  #features .title-f{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #features h2{
+    width: 80%;
+  }
+}
+
+@media (max-width:412px) and (min-width:350px) {
+ #home .countainer .contect img{
+    width: 97%;
+    margin-top: -80px;
+  }
+
+  #home .circle-arrow{
+    margin-top: 230px;
+  }
+    
+  #plans .countainer .plan{
+    padding: 45px 50px 45px 50px;
+  }
+}
